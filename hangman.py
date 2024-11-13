@@ -68,7 +68,7 @@ def main():
                 print(masked_word, f" Lives count: {count}. ")
             else:
 
-                print(f"Incorrect Guess, try again. Lives count: {count}. ")
+                print(f"Incorrect Guess, try again. Lives count: {count + 1}. ")
                 count += 1
 
         if masked_word.strip() == "".join(correct_guess).strip():
